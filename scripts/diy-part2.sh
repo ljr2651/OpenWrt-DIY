@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 # Add luci-theme-rosy
 git clone --depth=1 -b openwrt-18.06 https://github.com/shiyu1314/luci-theme-rosy
